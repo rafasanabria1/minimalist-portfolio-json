@@ -1,112 +1,113 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Rafael Sanabria Cruz",
+    "label": "Full Stack Developer con 10 años de experiencia",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "rafasanabria1@gmail.com",
+    "phone": "+34 615215495",
+    "url": "https://rafasanabria1.dev",
+    "summary": "+10 años de experiencia como Desarrollador Web. Comencé desarrollando plugins y temas Wordpress, pasé por el mundo de los comercios electrónicos a medida y actualmente lidero un equipo de desarrolladores para Telefónica de España.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "postalCode": "",
+      "city": "Sevilla",
       "countryCode": "ES",
       "region": "España"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "rafasanabria1",
+        "url": "https://linkedin.com/in/rafasanabria1"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "rafasanabria1",
+        "url": "https://github.com/rafasanabria1"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Telefónica de España",
+      "position": "Responsable de equipo fullstack",
+      "url": "",
+      "startDate": "2019-08-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Comencé iniciando un nuevo proyecto web en Telefónica como único desarrollador, y me he convertido en el responsable de un equipo de 8 desarrolladores. He conseguido implementar en el equipo las buenas prácticas y el uso de lintado de código, además de implementar GitFlow, Code Reviews y el uso de librerías de manera avanzada. Durante este tiempo he impartido cursos de SaSS, Git y Gitflow, y Javascript avanzado con jQuery.",
       "highlights": [
-        "Started the company"
+        "Responsable de proyecto",
+        "Instructor",
+        "Optimizador de scripts y base de datos"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Ayesa",
+      "position": "Analista programador Moodle",
+      "url": "",
+      "startDate": "2017-02-01",
+      "endDate": "2019-07-31",
+      "summary": "He estimado y desarrollado tareas, y realizado el mantenimiento fullstack de las plataformas Moodle de la Consejería de Educación de la Junta de Andalucía para secundaria y escuelas de idiomas. He modificado temas y desarrollado plugins a medida para la plataforma.",
       "highlights": [
-        "Started the company"
+        "Desarrollo de temas y plugins Moodle",
+        "Maquetación con librería bootstrap",
+        "Aprendizaje desde 0 sobre la plataforma"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "E-xisto Diseño Web",
+      "position": "Senior Fullstack Developer",
+      "startDate": "2015-03-01",
+      "endDate": "2017-01-31",
+      "summary": "Desarrollé comercios electrónicos y aplicaciones web a medida. Implementé pasarelas de pago RedSyS y Paypal. Aprendí a maquetar desde modelos Sketch con LESS y SaSS.",
       "highlights": [
-        "Started the company"
+        "Pasarelas de pago Redsys y Paypal",
+        "Multi-idiomas con i18n",
+        "Motor de plantillas Mustache"
+      ]
+    },
+    {
+      "name": "Nuevos Desarrollos Tecnológicos",
+      "position": "Wordpress Developer",
+      "startDate": "2014-09-01",
+      "endDate": "2015-02-28",
+      "summary": "Modifiqué e implementé temas y plugins a medida en entornos Wordpress como forma de sustento en una empresa de investigación. Paralelamente, desarrollé un MVP para un sistema de control remoto de puertas con NFC en el que se podía controlar los permisos de los diferentes usuarios para con sus cerraduras inteligentes utilizando HTML, CSS y jQuery.",
+      "highlights": [
+        "Temas y plugins Wordpress",
+        "Vanilla Javascript",
+        "SEO"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "institution": "Universidad de Sevilla",
+    "url": "https://www.us.es",
+    "area": "Ingeniería en Informática",
+    "studyType": "Máster",
+    "startDate": "2018-09-01",
+    "endDate": "2020-06-30",
+    "score": "",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Máster en Ingeniería Informática a Distancia"
     ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
+  },{
+    "institution": "Universidad de Sevilla",
+    "url": "https://www.us.es",
+    "area": "Ingeniería en Informática",
+    "studyType": "Grado",
+    "startDate": "2009-09-01",
+    "endDate": "2014-09-30",
+    "score": "",
+    "courses": [
+      "Grado en Ingeniería Informática"
+    ]
+  }
+  ],
   "certificates": [{
     "name": "Certificate",
     "date": "2021-11-07",
     "issuer": "Company",
     "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
   }],
   "skills": [
     {
