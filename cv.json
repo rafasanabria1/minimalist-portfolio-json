@@ -80,197 +80,184 @@
     }
   ],
   "education": [{
+    "title": "Máster en Ingeniería Informática",
     "institution": "Universidad de Sevilla",
     "url": "https://www.us.es",
     "area": "Ingeniería en Informática",
     "studyType": "Máster",
     "startDate": "2018-09-01",
-    "endDate": "2020-06-30",
-    "score": "",
-    "courses": [
-      "Máster en Ingeniería Informática a Distancia"
-    ]
+    "endDate": "2020-06-30"
   },{
+    "title": "Grado en Ingeniería Informática - Tecnologías Informáticas",
     "institution": "Universidad de Sevilla",
     "url": "https://www.us.es",
     "area": "Ingeniería en Informática",
     "studyType": "Grado",
     "startDate": "2009-09-01",
-    "endDate": "2014-09-30",
-    "score": "",
-    "courses": [
-      "Grado en Ingeniería Informática"
-    ]
+    "endDate": "2014-09-30"
   }
   ],
   "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
+    "name": "Meta Front-End Developer by Coursera",
+    "date": "2023-05-03",
+    "issuer": "Coursera",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/L5W6DYW9C6ZN"
+  },
+  {
+    "name": "Scrum Master",
+    "date": "2022-02-01",
+    "issuer": "EuropeanScrum",
+    "url": ""
   }],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "level": "Experto"
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
+      "level": "Experto"
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
+      "level": "Avanzado"
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
+      "level": "Avanzado"
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "level": "Avanzado"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "name": "CSS",
+      "level": "Experto"
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado"
+    },
+    {
+      "name": "ShadCN/UI",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Daisy/UI",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado"
+    },
+    {
+      "name": "MySQL",
+      "level": "Experto"
+    },
+    {
+      "name": "Supabase",
+      "level": "Avanzado"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Git",
+      "level": "Experto"
+    },
+    {
+      "name": "GitHub",
+      "level": "Experto"
+    },
+    {
+      "name": "GitHub",
+      "level": "Experto"
+    },
+    {
+      "name": "Bitbucket",
+      "level": "Experto"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Share me!",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Comparte tus perfiles en redes sociales con un único link.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "NextJS",
+        "TailwindCSS",
+        "Supabase",
+        "Typescript"
       ],
-      "url": "https://mars.codes"
+      "url": "https://share-me-rs1.vercel.app/",
+      "github": "https://github.com/rafasanabria1/share-me"
     },
     {
-      "name": "AdventJS",
+      "name": "Tennis RSS Reader",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Lee diferentes feeds RSS de noticias sobre tenis en un único sitio web.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "NextJS",
+        "TailwindCSS",
+        "FastXMLParser",
+        "Typescript"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://tennis-rss-reader.vercel.app/",
+      "github": "https://github.com/rafasanabria1/tennis-rss-reader"
     },
     {
-      "name": "Codember",
+      "name": "Runner Times",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Consulta los tiempos de carreras populares del portal IDEAIN con una interfaz moderna",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "NextJS",
+        "DaysiUI",
+        "Prisma",
+        "MongoDB",
+        "Typescript"
       ],
-      "url": "https://codember.dev"
+      "url": "https://runner-times.vercel.app/",
+      "github": "https://github.com/rafasanabria1/runner-times"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "Scrap Runner Times",
+      "isActive": false,
+      "description": "Script para scrapear datos de carreras populares del portal https://ideain.com y almacenarlos en una base de datos MongoDB.",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "PlayWright",
+        "MongoDB",
+        "Javascript"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "",
+      "github": "https://github.com/rafasanabria1/scrapping-runner-times"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "PORRA COAC 2024",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Realiza pronóstico del Concurso Oficial de Agrupaciones Carnavalescas de 2024 y compártelo en tus redes sociales.",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "NextJS",
+        "ShadCN/UI",
+        "DNDKit",
+        "Supabase",
+        "Typescript"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://porra-coac.vercel.app",
+      "github": "https://github.com/rafasanabria1/porra-coac"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "name": "Firebase Chat",
+      "isActive": true,
+      "description": "Chatea en tiempo real con usuarios logueados en la plataforma.",
       "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
+        "React",
+        "Bootstrap",
+        "Firebase",
+        "Typescript"
       ],
-      "url": "https://miduconf.com"
+      "url": "https://fire-chat-rafasanabria1.web.app/",
+      "github": "https://github.com/rafasanabria1/firebase-chat-mouredev-challenge"
     }
   ]
 }
