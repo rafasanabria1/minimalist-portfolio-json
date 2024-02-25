@@ -11,6 +11,7 @@ import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
+import ShadCN from "@/icons/ShadCN.astro"
 import { skills } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -25,6 +26,7 @@ const SKILLS_ICONS: Record<string, any> = {
   GitHub,
   Next,
   Tailwind,
+  ShadCN
 }
 ---
 
@@ -32,7 +34,9 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
+        let iconName = name
+        if (name === "Next.js") iconName = "Next"
+        if (name === "ShadCN/UI") iconName = "ShadCN"
         const Icon = SKILLS_ICONS[iconName]
 
         return (
