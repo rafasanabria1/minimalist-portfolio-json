@@ -9,8 +9,8 @@ import { education } from "@cv"
     {
       education.map(({ title, startDate, endDate, institution }) => {
         const start = new Date(startDate).toLocaleDateString("es-ES", {
-          year: "numeric",
-          month: "short",
+          year: 'numeric',
+          month: 'short',
         })
         const end =
           endDate != null ? new Date(endDate).toLocaleDateString('es-ES', {
@@ -64,6 +64,7 @@ import { education } from "@cv"
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
+    text-wrap: nowrap;
   }
 
   @media (width <= 700px) {

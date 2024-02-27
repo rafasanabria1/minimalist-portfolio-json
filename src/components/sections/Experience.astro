@@ -9,10 +9,16 @@ import { work } from "@cv"
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
+            const start = new Date(startDate).toLocaleDateString("es-ES", {
+          year: 'numeric',
+          month: 'short',
+        })
+        const end =
+          endDate != null ? new Date(endDate).toLocaleDateString('es-ES', {
+            year: 'numeric',
+            month: 'short'
+          }) : "Actual"
+          const years = `${start} - ${end}`
 
           return (
             <li>
