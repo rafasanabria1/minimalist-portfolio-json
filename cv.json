@@ -6,7 +6,7 @@
     "email": "rafasanabria1@gmail.com",
     "phone": "+34 615215495",
     "url": "https://rafasanabria1.dev",
-    "summary": "+10 años de experiencia como Desarrollador Web. Comencé desarrollando plugins y temas Wordpress, pasé por el mundo de los comercios electrónicos a medida y actualmente lidero un equipo de desarrolladores para Telefónica de España.",
+    "summary": "+10 años de experiencia como Desarrollador Web. Actualmente lidero un equipo de desarrolladores para Telefónica de España y estoy en constante formación y crecimiento. En los últimos años me he especializado en el desarrollo de aplicaciones web con NextJS, React y TailwindCSS. Soy un apasionado de la tecnología y me gusta estar al día de las últimas tendencias en el mundo del desarrollo web. Estoy dispuesto a realizar pruebas de código para demostrar experiencia y conocimientos en los diferentes lenguajes y frameworks.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -59,7 +59,7 @@
       "position": "Senior Fullstack Developer",
       "startDate": "2015-03-01",
       "endDate": "2017-01-31",
-      "summary": "Desarrollé comercios electrónicos y aplicaciones web a medida. Implementé pasarelas de pago RedSyS y Paypal. Aprendí a maquetar desde modelos Sketch con LESS y SaSS.",
+      "summary": "Desarrollé comercios electrónicos y aplicaciones web a medida. Durante este tiempo desarrollé y profundicé mis conocimientos en jQuery y plantillas HTML, así como en la maquetación con lenguajes SaSS y Less a partir de diseños en Sketch. Implementé pasarelas de pago RedSyS y Paypal para sitios multi-idioma.",
       "highlights": [
         "Pasarelas de pago Redsys y Paypal",
         "Multi-idiomas con i18n",
@@ -111,74 +111,67 @@
   }],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Experto"
+        "name": "HTML"
     },
     {
-      "name": "JavaScript",
-      "level": "Experto"
+        "name": "CSS"
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado"
+        "name": "TailwindCSS"
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado"
+        "name": "ShadCN/UI"
     },
     {
-      "name": "React",
-      "level": "Avanzado"
+        "name": "Daisy/UI"
     },
     {
-      "name": "CSS",
-      "level": "Experto"
+        "name": "JavaScript"
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado"
+        "name": "TypeScript"
     },
     {
-      "name": "ShadCN/UI",
-      "level": "Avanzado"
+        "name": "React"
     },
     {
-      "name": "Daisy/UI",
-      "level": "Avanzado"
+        "name": "Next.js"
     },
     {
-      "name": "Node",
-      "level": "Avanzado"
+        "name": "Node"
     },
     {
-      "name": "MySQL",
-      "level": "Experto"
+        "name": "Vercel"
     },
     {
-      "name": "Supabase",
-      "level": "Avanzado"
+        "name": "Firebase"
     },
     {
-      "name": "PostgreSQL",
-      "level": "Avanzado"
+        "name": "Git"
     },
     {
-      "name": "Git",
-      "level": "Experto"
+        "name": "GitHub"
     },
     {
-      "name": "GitHub",
-      "level": "Experto"
+        "name": "Bitbucket"
     },
     {
-      "name": "GitHub",
-      "level": "Experto"
+        "name": "MySQL"
     },
     {
-      "name": "Bitbucket",
-      "level": "Experto"
+        "name": "PostgreSQL"
+    },
+    {
+        "name": "MongoDB"
+    },
+    {
+        "name": "Supabase"
+    },
+    {
+        "name": "Prisma"
     }
-  ],
+    ]
+  ,
   "projects": [
     {
       "name": "Share me!",
@@ -233,7 +226,7 @@
       "github": "https://github.com/rafasanabria1/scrapping-runner-times"
     },
     {
-      "name": "PORRA COAC 2024",
+      "name": "Porra COAC",
       "isActive": true,
       "description": "Realiza pronóstico del Concurso Oficial de Agrupaciones Carnavalescas de 2024 y compártelo en tus redes sociales.",
       "highlights": [
