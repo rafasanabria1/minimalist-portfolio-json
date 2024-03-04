@@ -26,7 +26,7 @@ const linkedUrl = linkedInfo?.url
 const githubInfo = profiles.find(({ network }) => network === 'GitHub')
 const githubUrl = githubInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
+const printInfo = [email, phone, linkedUrl, githubUrl].filter(Boolean).join(' • ')
 
 const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
