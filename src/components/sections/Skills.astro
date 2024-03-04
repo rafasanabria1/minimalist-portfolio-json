@@ -1,19 +1,24 @@
 ---
-import Section from "../Section.astro"
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import ShadCN from "@/icons/ShadCN.astro"
-import { skills } from "@cv"
+interface Props {
+  cv: CV
+}
+import Section from '../Section.astro'
+import HTML from '@/icons/html.astro'
+import CSS from '@/icons/css.astro'
+import JavaScript from '@/icons/javascript.astro'
+import TypeScript from '@/icons/type.astro'
+import React from '@/icons/react.astro'
+import Node from '@/icons/node.astro'
+import MySQL from '@/icons/sql.astro'
+import Git from '@/icons/git.astro'
+import GitHub from '@/icons/GitHub.astro'
+import Tailwind from '@/icons/tailwind.astro'
+import Next from '@/icons/next.astro'
+import ShadCN from '@/icons/ShadCN.astro'
+import type { CV } from '@/cv'
+import { getLangFromUrl, useTranslations } from '@/i18n/utils'
 
+const { skills } = Astro.props.cv
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
   CSS,
@@ -26,17 +31,20 @@ const SKILLS_ICONS: Record<string, any> = {
   GitHub,
   Next,
   Tailwind,
-  ShadCN
+  ShadCN,
 }
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
-<Section title="Habilidades">
+<Section title={t('skills.title')}>
   <ul>
     {
       skills.map(({ name }) => {
         let iconName = name
-        if (name === "Next.js") iconName = "Next"
-        if (name === "ShadCN/UI") iconName = "ShadCN"
+        if (name === 'Next.js') iconName = 'Next'
+        if (name === 'ShadCN/UI') iconName = 'ShadCN'
         const Icon = SKILLS_ICONS[iconName]
 
         return (

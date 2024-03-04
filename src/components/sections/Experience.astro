@@ -1,49 +1,46 @@
 ---
-import Section from "../Section.astro"
+interface Props {
+  cv: CV
+}
+import { getLangFromUrl, useTranslations } from '@/i18n/utils'
+import Section from '../Section.astro'
+import type { CV } from '@/cv'
 
-import { work } from "@cv"
+const { work } = Astro.props.cv
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
-<Section title="Experiencia laboral">
+<Section title={t('experience.title')}>
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
-            const start = new Date(startDate).toLocaleDateString("es-ES", {
-          year: 'numeric',
-          month: 'short',
-        })
-        const end =
-          endDate != null ? new Date(endDate).toLocaleDateString('es-ES', {
-            year: 'numeric',
-            month: 'short'
-          }) : "Actual"
-          const years = `${start} - ${end}`
+      work.map(({ name, startDate, endDate, position, summary }) => {
+        const startYear = new Date(startDate).getFullYear()
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : t('experience.current')
+        const years = `${startYear} - ${endYear}`
 
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                      {name}
+                  </h3>
+                  <h4>{position}</h4>
+                </div>
 
-                  <time>{years}</time>
-                </header>
+                <time>{years}</time>
+              </header>
 
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
-      )
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
     }
   </ul>
 </Section>
@@ -58,14 +55,6 @@ import { work } from "@cv"
   article h3 {
     font-weight: 500;
     color: #111;
-  }
-
-  article a {
-    color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
   }
 
   article h4 {
