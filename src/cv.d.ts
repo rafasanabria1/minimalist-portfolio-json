@@ -43,20 +43,18 @@ interface Work {
   name: string
   position: string
   url: string
-  startDate: DateStr
-  endDate: DateStr | null
+  startDate: string
+  endDate: string | null
   summary: string
-  highlights: Highlight
+  highlights: Array<string>
 }
-
-type DateStr = `${string}-${string}-${string}`
 
 interface Volunteer {
   organization: string
   position: string
   url: string
-  startDate: DateStr
-  endDate: DateStr
+  startDate: string
+  endDate: string
   summary: string
   highlights: Highlight
 }
@@ -76,7 +74,7 @@ interface Awards {
 
 interface Certificates {
   name: string,
-  date: DateStr,
+  date: string,
   issuer: string,
   url: string
 }
@@ -84,18 +82,19 @@ interface Certificates {
 interface Publications {
   name: string
   publisher: string
-  releaseDate: DateStr
+  releaseDate: string
   url: string
   summary: string
 }
 
 interface Education {
+  title?: string
   institution: string
   url: string
   area: string
   studyType: string
-  startDate: DateStr
-  endDate: DateStr
+  startDate: string
+  endDate: string
   score: string
   courses: Array<string>
 }
