@@ -1,0 +1,254 @@
+{
+  "basics": {
+    "name": "Rafael Sanabria Cruz",
+    "label": "Full Stack Developer with 10 years of experience",
+    "image": "/me.webp",
+    "email": "rafasanabria1@gmail.com",
+    "phone": "+34 615215495",
+    "url": "https://rafasanabria1.dev",
+    "summary": "+10 years of experience as a Web Developer. I currently lead a team of developers for Telefónica de España and I am in constant training and growth. In recent years I have specialized in the development of web applications with NextJS, React and TailwindCSS. I am passionate about technology and I like to keep up to date with the latest trends in the world of web development. I am willing to take code tests to demonstrate experience and knowledge in different languages and frameworks.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Sevilla",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rafasanabria1",
+        "url": "https://linkedin.com/in/rafasanabria1"
+      },
+      {
+        "network": "GitHub",
+        "username": "rafasanabria1",
+        "url": "https://github.com/rafasanabria1"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Telefónica de España",
+      "position": "Team Leader of Fullstack Developers",
+      "startDate": "2019-08-01",
+      "endDate": null,
+      "summary": "I started by initiating a new web project at Telefónica as the sole developer, and I have become the leader of a team of 8 developers. I have managed to implement good practices and code linting in the team, in addition to implementing GitFlow, Code Reviews, and the advanced use of libraries. During this time, I have taught courses on SaSS, Git and Gitflow, and advanced Javascript with jQuery.",
+      "highlights": [
+        "Team Leader",
+        "Instructor",
+        "Scripts and database optimizations"
+      ]
+    },
+    {
+      "name": "Ayesa",
+      "position": "Moodle Programmer Analyst,",
+      "startDate": "2017-02-01",
+      "endDate": "2019-07-31",
+      "summary": "I have estimated and developed tasks, and performed fullstack maintenance of the Moodle platforms for the Department of Education of the Junta de Andalucía for secondary schools and language schools. I have modified themes and developed custom plugins for the platform.",
+      "highlights": [
+        "Moodle Plugin & themes developer",
+        "Use of bootstrap",
+        "Learning from scratch about the platform"
+      ]
+    },
+    {
+      "name": "E-xisto Diseño Web",
+      "position": "Senior Fullstack Developer",
+      "startDate": "2015-03-01",
+      "endDate": "2017-01-31",
+      "summary": "I developed e-commerce sites and custom web applications. During this time, I developed and deepened my knowledge in jQuery and HTML templates, as well as in layout with SaSS and Less languages from Sketch designs. I implemented RedSyS and Paypal payment gateways for multi-language sites.",
+      "highlights": [
+        "Redsys & PayPal payment gateways",
+        "Multi-language with i18n",
+        "Mustache templates"
+      ]
+    },
+    {
+      "name": "Nuevos Desarrollos Tecnológicos",
+      "position": "Wordpress Developer",
+      "startDate": "2014-09-01",
+      "endDate": "2015-02-28",
+      "summary": "I modified and implemented custom themes and plugins in Wordpress environments as a means of support in a research company. At the same time, I developed an MVP for a remote door control system with NFC where it was possible to control the permissions of different users for their smart locks using HTML, CSS, and jQuery.",
+      "highlights": [
+        "Wordpress Plugins & Themes Developer",
+        "Vanilla Javascript",
+        "SEO"
+      ]
+    }
+  ],
+  "education": [{
+    "title": "Máster en Ingeniería Informática",
+    "institution": "Universidad de Sevilla",
+    "url": "https://www.us.es",
+    "area": "Ingeniería en Informática",
+    "studyType": "Máster",
+    "startDate": "2018-09-01",
+    "endDate": "2020-06-30"
+  },{
+    "title": "Grado en Ingeniería Informática - Tecnologías Informáticas",
+    "institution": "Universidad de Sevilla",
+    "url": "https://www.us.es",
+    "area": "Ingeniería en Informática",
+    "studyType": "Grado",
+    "startDate": "2009-09-01",
+    "endDate": "2014-09-30"
+  }
+  ],
+  "certificates": [{
+    "name": "Meta Front-End Developer by Coursera",
+    "date": "2023-05-03",
+    "issuer": "Coursera",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/L5W6DYW9C6ZN"
+  },
+  {
+    "name": "Scrum Master",
+    "date": "2022-02-01",
+    "issuer": "EuropeanScrum",
+    "url": ""
+  }],
+  "skills": [
+    {
+        "name": "HTML"
+    },
+    {
+        "name": "CSS"
+    },
+    {
+        "name": "TailwindCSS"
+    },
+    {
+        "name": "ShadCN/UI"
+    },
+    {
+        "name": "Daisy/UI"
+    },
+    {
+        "name": "JavaScript"
+    },
+    {
+        "name": "TypeScript"
+    },
+    {
+        "name": "React"
+    },
+    {
+        "name": "Next.js"
+    },
+    {
+        "name": "Node"
+    },
+    {
+        "name": "Vercel"
+    },
+    {
+        "name": "Firebase"
+    },
+    {
+        "name": "Git"
+    },
+    {
+        "name": "GitHub"
+    },
+    {
+        "name": "Bitbucket"
+    },
+    {
+        "name": "MySQL"
+    },
+    {
+        "name": "PostgreSQL"
+    },
+    {
+        "name": "MongoDB"
+    },
+    {
+        "name": "Supabase"
+    },
+    {
+        "name": "Prisma"
+    }
+    ]
+  ,
+  "projects": [
+    {
+      "name": "Share me!",
+      "isActive": true,
+      "description": "Share your social media profiles with a single link",
+      "highlights": [
+        "NextJS",
+        "TailwindCSS",
+        "Supabase",
+        "Typescript"
+      ],
+      "url": "https://share-me-rs1.vercel.app/",
+      "github": "https://github.com/rafasanabria1/share-me"
+    },
+    {
+      "name": "Tennis RSS Reader",
+      "isActive": true,
+      "description": "Read different RSS news feeds about tennis on a single website",
+      "highlights": [
+        "NextJS",
+        "TailwindCSS",
+        "FastXMLParser",
+        "Typescript"
+      ],
+      "url": "https://tennis-rss-reader.vercel.app/",
+      "github": "https://github.com/rafasanabria1/tennis-rss-reader"
+    },
+    {
+      "name": "Runner Times",
+      "isActive": true,
+      "description": "Check the times of popular races from the IDEAIN portal with a modern interface",
+      "highlights": [
+        "NextJS",
+        "DaysiUI",
+        "Prisma",
+        "MongoDB",
+        "Typescript"
+      ],
+      "url": "https://runner-times.vercel.app/",
+      "github": "https://github.com/rafasanabria1/runner-times"
+    },
+    {
+      "name": "Scrap Runner Times",
+      "isActive": false,
+      "description": "Script to scrape data from popular races from the portal https://ideain.com and store them in a MongoDB database",
+      "highlights": [
+        "PlayWright",
+        "MongoDB",
+        "Javascript"
+      ],
+      "url": "",
+      "github": "https://github.com/rafasanabria1/scrapping-runner-times"
+    },
+    {
+      "name": "Porra COAC",
+      "isActive": true,
+      "description": "Make a forecast of the Concurso Oficial de Agrupaciones Carnavalescas 2024",
+      "highlights": [
+        "NextJS",
+        "ShadCN/UI",
+        "DNDKit",
+        "Supabase",
+        "Typescript"
+      ],
+      "url": "https://porra-coac.vercel.app",
+      "github": "https://github.com/rafasanabria1/porra-coac"
+    },
+    {
+      "name": "Firebase Chat",
+      "isActive": true,
+      "description": "Chat in real time with users logged into the platform",
+      "highlights": [
+        "React",
+        "Bootstrap",
+        "Firebase",
+        "Typescript"
+      ],
+      "url": "https://fire-chat-rafasanabria1.web.app/",
+      "github": "https://github.com/rafasanabria1/firebase-chat-mouredev-challenge"
+    }
+  ]
+}
