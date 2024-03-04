@@ -1,0 +1,79 @@
+---
+import { getLangFromUrl, languages } from '@/i18n/utils'
+import { getAbsoluteLocaleUrl } from 'astro:i18n'
+const actualLang = getLangFromUrl(Astro.url)
+---
+
+<section>
+  <nav>
+    <ul>
+      {
+        Object.entries(languages).map(([lang]) => {
+          const url = getAbsoluteLocaleUrl(lang)
+          if (actualLang === lang) {
+            return (
+              <li class={actualLang === lang ? 'active' : ''}>
+                {lang.toUpperCase()}
+              </li>
+            )
+          }
+
+          return (
+            <a
+              href={url}
+              title='Cambiar a versión en Español'
+              aria-disabled='true'
+            >
+              <li class={actualLang === lang ? 'active' : ''}>
+                {lang.toUpperCase()}
+              </li>
+            </a>
+          )
+        })
+      }
+    </ul>
+  </nav>
+</section>
+
+<style>
+  section {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    padding: 0.5em;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+
+  ul {
+    display: flex;
+    gap: 1em;
+  }
+
+  li {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  li:hover {
+    background: #ddd;
+    border: 1px solid #ddd;
+  }
+
+  li.active {
+    font-weight: 600;
+    color: #333;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: default;
+  }
+</style>
