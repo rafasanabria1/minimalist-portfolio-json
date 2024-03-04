@@ -1,22 +1,28 @@
 ---
-import Section from "../Section.astro"
+interface Props {
+  cv: CV
+}
+import Section from '../Section.astro'
+import type { CV } from '@/cv'
 
-import { education } from "cv-es.json"
+const { education } = Astro.props.cv
 ---
 
-<Section title="Educación">
+<Section title='Educación'>
   <ul>
     {
       education.map(({ title, startDate, endDate, institution }) => {
-        const start = new Date(startDate).toLocaleDateString("es-ES", {
-          year: "numeric",
-          month: "short",
+        const start = new Date(startDate).toLocaleDateString('es-ES', {
+          year: 'numeric',
+          month: 'short',
         })
         const end =
-          endDate != null ? new Date(endDate).toLocaleDateString('es-ES', {
-            year: 'numeric',
-            month: 'short'
-          }) : "Actual"
+          endDate != null
+            ? new Date(endDate).toLocaleDateString('es-ES', {
+                year: 'numeric',
+                month: 'short',
+              })
+            : 'Actual'
         const years = `${start} - ${end}`
 
         return (

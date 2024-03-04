@@ -1,15 +1,15 @@
 ---
-import LanguagePicker from '@/components/LanguagePicker.astro'
-import { getLangFromUrl } from '@/i18n/utils'
-import { basics } from 'cv-es.json'
-
 interface Props {
+  cv: CV
   title: string
 }
+import LanguagePicker from '@/components/LanguagePicker.astro'
+import { getLangFromUrl } from '@/i18n/utils'
+import type { CV } from '@/cv'
 
-const { title } = Astro.props
+const { title, cv } = Astro.props
 
-const { image, summary, url } = basics
+const { image, summary, url } = cv.basics
 const lang = getLangFromUrl(Astro.url)
 ---
 
