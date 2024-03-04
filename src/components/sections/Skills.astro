@@ -16,6 +16,7 @@ import Tailwind from '@/icons/tailwind.astro'
 import Next from '@/icons/next.astro'
 import ShadCN from '@/icons/ShadCN.astro'
 import type { CV } from '@/cv'
+import { getLangFromUrl, useTranslations } from '@/i18n/utils'
 
 const { skills } = Astro.props.cv
 const SKILLS_ICONS: Record<string, any> = {
@@ -32,9 +33,12 @@ const SKILLS_ICONS: Record<string, any> = {
   Tailwind,
   ShadCN,
 }
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
-<Section title='Habilidades'>
+<Section title={t('skills.title')}>
   <ul>
     {
       skills.map(({ name }) => {

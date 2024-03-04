@@ -1,9 +1,14 @@
 import { ui } from './ui';
 
 export const languages = {
-en: 'English',
-es: 'Spanish',
+    en: 'English',
+    es: 'Spanish',
 };
+
+export const localeDateString = {
+    es: 'es-ES',
+    en: 'en-US'
+}
 
 export const defaultLang = 'en';
 

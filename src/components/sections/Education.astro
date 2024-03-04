@@ -2,27 +2,32 @@
 interface Props {
   cv: CV
 }
+import { getLangFromUrl, useTranslations, localeDateString } from '@/i18n/utils'
 import Section from '../Section.astro'
 import type { CV } from '@/cv'
 
 const { education } = Astro.props.cv
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+
+
 ---
 
-<Section title='Educación'>
+<Section title={t('education.title')}>
   <ul>
     {
       education.map(({ title, startDate, endDate, institution }) => {
-        const start = new Date(startDate).toLocaleDateString('es-ES', {
+        const start = new Date(startDate).toLocaleDateString(localeDateString[lang], {
           year: 'numeric',
           month: 'short',
         })
         const end =
           endDate != null
-            ? new Date(endDate).toLocaleDateString('es-ES', {
+            ? new Date(endDate).toLocaleDateString(localeDateString[lang], {
                 year: 'numeric',
                 month: 'short',
               })
-            : 'Actual'
+            : t('education.current')
         const years = `${start} - ${end}`
 
         return (
